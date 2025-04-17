@@ -3,7 +3,7 @@
 
 Emotions Feedback Engine – An AI-based Real-Time Facial Emotion Recognition System
 
-**2.Introduction**
+**2. Introduction**
 This project brings together computer vision and neural networks to build a practical solution that can:
 •	Understand what a user might be feeling.
 •	Provide instant human-like feedback.
