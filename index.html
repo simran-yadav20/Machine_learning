@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotions Feedback Engine</title>
+</head>
+<body style="font-family: Arial; text-align: center; background-color: #f9f9f9;">
+    <h1>😊 Emotions Feedback Engine</h1>
+    <form method="POST" action="/detect">
+        <button type="submit" style="padding: 10px 20px; font-size: 16px;">Detect Emotion</button>
+    </form>
+
+    {% if emotion %}
+        <h2>Detected Emotion: {{ emotion }}</h2>
+        <p><strong>Feedback:</strong> {{ feedback }}</p>
+        <img src="{{ url_for('static', filename='capture.jpg') }}" width="300" style="margin-top: 20px;">
+    {% endif %}
+</body>
+</html>
